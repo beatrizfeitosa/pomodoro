@@ -22,6 +22,22 @@ body {
     'Helvetica Neue',
     sans-serif;
   font-size: 1.6rem;
-  background: var(--background-light);
+  background: var(--color-light);
   color: var(--text-light);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
 }

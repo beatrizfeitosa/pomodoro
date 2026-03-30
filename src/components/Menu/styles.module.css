@@ -6,8 +6,8 @@
 }
 
 .menuLink {
-  background: var(--primary);
-  color: var(--color-light);
+  background: var(--link);
+  color: var(--background-light);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .menuLink:hover {
-  background: var(--primary-hover);
+  background: var(--link-hover);
   transition: all 0.2s ease-in-out;
 }
 
