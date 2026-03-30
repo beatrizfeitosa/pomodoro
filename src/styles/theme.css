@@ -5,13 +5,12 @@
   --link: #c44a3a;
   --link-hover: #8c3428;
 
-  --background-light: #fffdeb;
-  --background-dark: #2c2c2c;
+  --color-light: #fffdeb;
+  --color-dark: #2c2c2c;
 
   --text-dark: #fffdeb;
   --text-light: #2c2c2c;
   --text-muted: #9f8383;
-  --text-alert: #2c2c2c;
 
   --button-disabled: #dddad0;
   --text-disabled: #7a7a73;
