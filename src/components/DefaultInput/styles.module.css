@@ -10,7 +10,8 @@ input {
   font-size: 1.8rem;
   border-radius: 1rem;
   border: 0.2rem solid var(--primary);
-  color: var(--text-light);
+  color: var(--main-text);
+  background-color: transparent;
   outline: none;
 }
 

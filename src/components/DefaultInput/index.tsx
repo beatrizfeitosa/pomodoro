@@ -15,7 +15,7 @@ export function DefaultInput({
     <>
       {labelText && <label htmlFor={id}>{labelText}</label>}
       <input
-        placeholder='Digite sua tarefa'
+        placeholder='Your task'
         className={styles.input}
         id={id}
         type={type}

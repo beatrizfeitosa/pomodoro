@@ -22,12 +22,12 @@
   height: 3.2rem;
 }
 
-.blue {
+.primary {
   background-color: var(--primary);
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
-.red {
+.secondary {
   background-color: var(--link);
-  color: var(--text-dark);
+  color: var(--text-light);
 }

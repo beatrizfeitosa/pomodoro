@@ -22,8 +22,8 @@ body {
     'Helvetica Neue',
     sans-serif;
   font-size: 1.6rem;
-  background: var(--color-light);
-  color: var(--text-light);
+  background: var(--background);
+  color: var(--main-text);
 }
 
 .form {

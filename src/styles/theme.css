@@ -5,13 +5,26 @@
   --link: #8c5a3c;
   --link-hover: #613e29;
 
-  --background-light: #fffdeb;
-  --background-dark: #2c2c2c;
+  --background: #fffefa;
 
-  --text-dark: #fffdeb;
-  --text-light: #2c2c2c;
+  --main-text: #2c2c2c;
+
+  --text-dark: #2c2c2c;
+  --text-light: #fffefa;
   --text-muted: #9f8383;
 
   --button-disabled: #dddad0;
   --text-disabled: #7a7a73;
+}
+
+:root[data-theme='dark'] {
+  --primary: #ffc570;
+  --primary-hover: #d7a65b;
+
+  --link: #8c5a3c;
+  --link-hover: #613e29;
+
+  --background: #2c2c2c;
+
+  --main-text: #fffefa;
 }

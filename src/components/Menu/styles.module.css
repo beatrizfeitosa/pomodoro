@@ -7,7 +7,7 @@
 
 .menuLink {
   background: var(--link);
-  color: var(--background-light);
+  color: var(--text-light);
   display: inline-flex;
   align-items: center;
   justify-content: center;
