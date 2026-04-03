@@ -8,12 +8,12 @@ import {
 import styles from './styles.module.css';
 import { useState, useEffect } from 'react';
 
-type availableThemes = 'dark' | 'light';
+type AvailableThemes = 'dark' | 'light';
 
 export function Menu() {
-  const [theme, setTheme] = useState<availableThemes>(() => {
+  const [theme, setTheme] = useState<AvailableThemes>(() => {
     const storageTheme =
-      (localStorage.getItem('theme') as availableThemes) || 'light';
+      (localStorage.getItem('theme') as AvailableThemes) || 'light';
     return storageTheme;
   });
 
