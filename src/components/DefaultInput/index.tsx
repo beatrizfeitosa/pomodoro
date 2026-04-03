@@ -9,7 +9,7 @@ export function DefaultInput({
   id,
   type,
   labelText,
-  ...otherAttributes
+  ...props
 }: DefaultInputProps) {
   return (
     <>
@@ -19,7 +19,7 @@ export function DefaultInput({
         className={styles.input}
         id={id}
         type={type}
-        {...otherAttributes}
+        {...props}
       />
     </>
   );
